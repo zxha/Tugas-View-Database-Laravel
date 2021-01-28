@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/pegawai','PegawaiController@index');
+Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+Route::post('/pegawai/update','PegawaiController@update');
+Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');

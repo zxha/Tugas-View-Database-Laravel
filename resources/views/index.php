@@ -8,6 +8,7 @@
 	<h3>Data Pegawai</h3>
 
 	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
 
 	<br/>
 	<br/>
