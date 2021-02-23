@@ -18,5 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/pegawai','PegawaiController@index');
 Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+Route::get("/daftar_paket/tambah", "PaketController@tambah");
+Route::post("/daftar_paket/tambah_jam", "PaketController@tambah_jam");
 Route::post('/pegawai/update','PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
